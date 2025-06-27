@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
   background-color: #FDFF00;
-animation: flash 0.1s infinte; 
+animation: flash 0.1s infinite; 
 }
 
 @keyframes flash {
