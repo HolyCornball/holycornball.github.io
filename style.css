@@ -1,8 +1,15 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: #FDFF00;
+animation: flash 0.1s infinte; 
 }
 
+@keyframes flash {
+ 0% {background-color: #FDFF00;} 
+ 50% {background-color: #FD00FF;} 
+ 100% {background-color: #FDFF00;} 
+}
 #container {
   width: 400px;
   height: 400px;
